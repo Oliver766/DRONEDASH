@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2441721043952243657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2441721043952243659}
+  - component: {fileID: 2441721043952243658}
+  - component: {fileID: 9204214628089294914}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2441721043952243659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2441721043952243657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 543.8916, y: 493.04968, z: -119.32349}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2441721043952243658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2441721043952243657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b755feae50152034397609c9b5c86b47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ui_timer: {fileID: 0}
+  matchLength: 500
+  perpetual: 0
+  pauseMenu: {fileID: 0}
+  outcome1: {fileID: 0}
+  outcome2: {fileID: 0}
+  outcome3: {fileID: 0}
+  outcome4: {fileID: 0}
+  outcomeText1: {fileID: 0}
+  outcomeText2: {fileID: 0}
+  outcomeText3: {fileID: 0}
+  outcomeText4: {fileID: 0}
+  playerscoreout1: {fileID: 0}
+  playerscoreout2: {fileID: 0}
+  playerscoreout3: {fileID: 0}
+  playerscoreout4: {fileID: 0}
+  playerscoreoutcome1: {fileID: 0}
+  playerscoreoutcome2: {fileID: 0}
+  playerscoreoutcome3: {fileID: 0}
+  playerscoreoutcome4: {fileID: 0}
+  p_scoreoutcome1: {fileID: 0}
+  p_scoreoutcome2: {fileID: 0}
+  p_scoreoutcome3: {fileID: 0}
+  p_scoreoutcome4: {fileID: 0}
+  s_scoreoutcome1: {fileID: 0}
+  s_scoreoutcome2: {fileID: 0}
+  s_scoreoutcome3: {fileID: 0}
+  s_scoreoutcome4: {fileID: 0}
+  score1: {fileID: 0}
+  score2: {fileID: 0}
+  score3: {fileID: 0}
+  score4: {fileID: 0}
+--- !u!114 &9204214628089294914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2441721043952243657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  observableSearch: 2
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents: []
+  viewIdField: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
